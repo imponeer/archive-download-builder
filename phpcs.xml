@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ruleset name="Package Downloader">
+    <!-- Use PSR-12 coding standard -->
+    <rule ref="PSR12"/>
+
+    <!-- Exclude vendor directory -->
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+
+    <!-- Files and directories to scan -->
+    <file>src</file>
+    <file>tests</file>
+</ruleset>
